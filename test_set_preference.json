@@ -1,0 +1,31 @@
+{
+  "Consumer_ID": "5",
+  "Merchant_ID": "1", 
+  "preferences": {
+    "products": [
+      {
+        "product_id": "1",
+        "customization_present": true,
+        "customization": [
+          { "category_ID" : 1,
+            "category": "Size",
+            "category_value": "Medium",
+			"id_customization_value_alias" : 2
+          },
+          
+          { "category_ID" : 2,
+            "category": "Size",
+            "category_value": "Medium",
+			"id_customization_value_alias" : 3
+          }
+        ]
+      },
+      {
+        "product_id": "2",
+        "customization_present": false,
+        "customization": [
+        ]
+      }
+    ]
+  }
+}

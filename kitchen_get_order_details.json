@@ -1,0 +1,51 @@
+{
+  "Merchant_ID": "1",
+  "Orders": {
+    "OrderArray": [
+      {
+        "Order_ID": "AB-24",
+        "Token": "20",
+        "Order_Status":"",
+		"sequence": 1,
+        "Products": [
+          {
+            "Product_ID": "1",
+            "Product_Name": "Cappuccino",
+            "Quantity": 1,
+            "Customization_Required": "Yes",
+            "Customization": {
+              "category": "Milk",
+              "category_value": "2%"
+            }
+          },
+          {
+            "Product_ID": "2",
+            "Product_Name": "Black Coffee",
+            "Quantity": 1,
+            "Customization_Required": "No",
+            "Customization": {
+            }
+          }
+        ]
+      },
+      {
+        "Order_ID": "AB-25",
+        "Token": "21",
+        "Order_Status":"",
+		"sequence": 2,
+        "Products": [
+          {
+            "Product_ID": "1",
+            "Product_Name": "Caramel Macchiato",
+            "Quantity": 1,
+            "Customization_Required": "Yes",
+            "Customization": {
+              "category": "Whip Cream",
+              "category_value": "wWhip"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

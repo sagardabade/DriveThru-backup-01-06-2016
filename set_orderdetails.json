@@ -1,0 +1,63 @@
+{
+  
+  "order": {
+  "Consumer_ID": "7",
+  "Merchant_ID": "1",
+    "products": [
+      {
+        "product_id": "1",
+        "item_name": "cappuccino",
+        "item_price": 200,
+        "item_quantity":2,
+        "customization_present": true,
+        "customization": [
+          { "category_ID" : 1,
+            "category": "Size",
+            "category_value": "Medium",
+			"id_customization_value_alias" : 2,
+			"customization_price": 50
+          },
+          {
+			"category_ID" : 2,
+            "category": "Milk",
+            "category_value": "2%",
+			"id_customization_value_alias" : 3,
+			"customization_price": 50
+          }
+        ]
+      },
+      {
+        "product_id": "4",
+        "item_name": "coffee",
+        "item_price": 300,
+        "item_quantity":1,
+        "customization_present": true,
+        "customization": [
+          {
+			"category_ID" : 4,
+            "category": "Size",
+            "category_value": "Tall",
+			"id_customization_value_alias" : 3,
+			"customization_price": 50
+          },
+          {
+			"category_ID" : 2,
+            "category": "Milk",
+            "category_value": "Whole",
+			"id_customization_value_alias" : 3,
+			"customization_price": 50
+          }
+        ]
+      },
+      {
+        "product_id": "5",
+        "item_name": "tea",
+        "item_price": 250,
+        "item_quantity":1,
+        "customization_present": false,
+        "customization": [
+        ]
+      }
+    ]
+  }
+}
